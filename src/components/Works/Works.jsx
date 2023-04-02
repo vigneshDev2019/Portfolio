@@ -27,13 +27,13 @@ const Works = () => {
           </span>
           <span>Languages and Frameworks</span>
           <span>
-            High level of coding skills with WBS (Work Breakdown Structure) to start coding
+            High level of coding skills with WBS (Work Breakdown Structure) to start coding.
             <br />
-            Write UnitTest case with Cen Percentage coverage before deployment
+            Write UnitTest case with Cen Percent coverage before deployment.
             <br />
-            Implement DataStructure and Algorithm approach in our Task.
+            Try to Write the code efficient way using data structure and Algorithm for all the Task.
             <br />
-            Following AGILE methodology to complete the Task
+            Following the AGILE methodology to complete the Task.
           </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
