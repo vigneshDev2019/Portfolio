@@ -29,11 +29,11 @@ const Works = () => {
           <span>
             High level of coding skills with WBS (Work Breakdown Structure) to start coding.
             <br />
-            Write UnitTest case with Cen Percent coverage before deployment.
+            Writing a unit test case with cen percent coverage before deployment.
             <br />
-            Try to Write the code efficient way using data structure and Algorithm for all the Task.
+            Try to Write the code efficient way using data structures and algorithms for all kind tasks.
             <br />
-            Following the AGILE methodology to complete the Task.
+            Followed the Agile Methodology to complete the tasks.
           </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -59,10 +59,10 @@ const Works = () => {
             <img src={Upwork} alt="" />
           </div>
           <div className="w-secCircle">
-            <img style={{ width: "120px", filter:"saturate(200%)" }} src={Reactjs} alt="" />
+            <img style={{width: "7rem"}} src={Dotnet} alt="" />
           </div>
           <div className="w-secCircle">
-            <img style={{width: "7rem"}} src={Dotnet} alt="" />
+            <img style={{ width: "120px", filter:"saturate(200%)" }} src={Reactjs} alt="" />
           </div>
           <div className="w-secCircle">
             <img src={Redux} alt="" />

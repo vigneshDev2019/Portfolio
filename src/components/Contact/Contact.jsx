@@ -87,7 +87,7 @@ const Contact = () => {
             value={phoneNumber}
             onChange={(phoneNumber) => setPhoneNumber(phoneNumber)}
           />
-          <textarea name="message" className="user" placeholder="message" />
+          <textarea name="message" className="user" placeholder="Enter Message" />
           <input type="submit" value="Send" className="button" />
           {done.length > 0 &&
             <span style={{color: error ? "red" : "white"}}>{done}</span>

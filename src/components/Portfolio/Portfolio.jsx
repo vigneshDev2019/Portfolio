@@ -4,10 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import SwiperCore, { Autoplay } from 'swiper';
 import "swiper/css/pagination";
-import Sidebar from "../../img/CarsListSinglePage.png";
-import Ecommerce from "../../img/TaxiWebPersonal.png";
-import HOC from "../../img/MSBActivities.png";
-import MusicApp from "../../img/carsListWithMultiDropDown.png";
+import CarsListSingle from "../../img/CarsListSinglePage.png";
+import TaxiWebPersonal from "../../img/TaxiWebPersonal.png";
+import MSBActivitiesParent from "../../img/MSBActivities.png";
+import MultiDropDownPersonal from "../../img/carsListWithMultiDropDown.png";
+import MSBActivitiesAdmin from "../../img/Msb-Admin.png";
+import MSBActivitiesKiosk from "../../img/Msb-Kiosk.png";
 import { themeContext } from "../../Context";
 
 SwiperCore.use([Autoplay]);
@@ -30,17 +32,24 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={MSBActivitiesKiosk} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={CarsListSingle} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={MSBActivitiesParent} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={TaxiWebPersonal} alt="" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={MultiDropDownPersonal} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={MSBActivitiesAdmin} alt="" />
+        </SwiperSlide>
+        
       </Swiper>
     </div>
   );

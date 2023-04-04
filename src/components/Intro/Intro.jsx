@@ -73,7 +73,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Vignesh</span>
           <span>
-            FullStack Web Developer with high level of experience in web designing
+            Full Stack Web Developer with high level of experience in web designing
             and development, producting the Quality work.
           </span>
         </div>

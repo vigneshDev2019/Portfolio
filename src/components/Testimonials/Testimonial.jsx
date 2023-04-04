@@ -15,23 +15,31 @@ const Testimonial = () => {
   const clients = [
     {
       img: profilePic1,
+      name: "Karthick",
+      role: "(Lead - Developer)",
       review:
-        "I'm Karthick (TL),  You have elevated this project with your hard work and great ideas. Thank you for your contributions.",
+        "You have elevated this project with your hard work and great ideas. Thank you for your contributions.",
     },
     {
       img: profilePic2,
+      name: "Kanchana",
+      role: "(Lead - QA)",
       review:
-        "I'm Kanchana , I wanted to express my gratitude for your contributions to this team. You have a talent for attention to detail, and it shows in your work.",
+        "I wanted to express my gratitude for your contributions to this team. You have a talent for attention to detail, and it shows in your work.",
     },
     {
       img: profilePic3,
+      name: "Murugan",
+      role: "(Senior - UI Developer)",
       review:
-        "I'm Murugan, Your focus on innovation is fabulous and it has lightened a spark in the minds of everyone on this team. Great work. Your problem-solving skills are second to none.",
+        "Your focus on innovation is fabulous and it has lightened a spark in the minds of everyone on this team. Great work. Your problem-solving skills are second to none.",
     },
     {
       img: profilePic4,
+      name: "Lavanya",
+      role: "(Senior - React Native Developer)",
       review:
-        "I'm Lavanya, You have always been a rock to our team. Someone to rely on even when we are working under immense pressure and tough deadlines. You have been a true mentor and teacher for the team, we appreciate your guidance.",
+        "You have always been a rock to our team. Someone to rely on even when we are working under immense pressure and tough deadlines. You have been a true mentor and teacher for the team, we appreciate your guidance.",
     },
   ];
 
@@ -54,9 +62,11 @@ const Testimonial = () => {
         {clients.map((client, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="testimonial">
+              <div  className="testimonial">
                 <img src={client.img} alt="" />
-                <span>{client.review}</span>
+                <span style={{color: "white"}}>{client.name}</span>
+                <span style={{color: "white", fontSize:"0.6rem"}}>{client.role}</span>
+                <span style={{color: "", fontSize:"0.6rem"}}><q>{client.review}</q></span>
               </div>
             </SwiperSlide>
           );

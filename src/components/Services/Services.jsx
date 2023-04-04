@@ -25,9 +25,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Things</span>
         <span>
-          Im proud Fullstack web developer from Tamilnadu - Madurai.
+          I am a proud Full stack web developer from Tamilnadu - Madurai.
           <br />
-          To know more about me Please contact us (or) 
+          To know more about me, Please contact us. 
           <br />
           Download my resume using below button.
         </span>
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express, C#, .netcore, MVC Pattern, JQuery"}
+            detail={"HTML, CSS, JavaScript, React, Nodejs, Express, C#, .NET Core, MVC Pattern, JQuery"}
           />
         </motion.div>
         {/* 3rd */}
