@@ -66,7 +66,7 @@ const Testimonial = () => {
                 <img src={client.img} alt="" />
                 <span style={{color: "white"}}>{client.name}</span>
                 <span style={{color: "white", fontSize:"0.6rem"}}>{client.role}</span>
-                <span style={{color: "", fontSize:"0.6rem"}}><q>{client.review}</q></span>
+                <span ><q style={{color: "", fontSize:"0.7rem"}}>{client.review}</q></span>
               </div>
             </SwiperSlide>
           );
