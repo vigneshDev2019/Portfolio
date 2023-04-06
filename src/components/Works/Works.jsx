@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/CSharp.png";
 import Reactjs from "../../img/reactJs.png";
-import Dotnet from "../../img/dotnetN.png";
+import Dotnet from "../../img/dotnetCoreLogo.png";
 import Redux from "../../img/redux.png";
 import Jest from "../../img/jest.png";
 import SQL from "../../img/sql.png";
